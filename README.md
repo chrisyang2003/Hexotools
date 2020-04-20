@@ -7,7 +7,7 @@
 
 - `change.py`为将markdown中的的图片自动上传到smms图床上并替换,再也不用自己的手动上传然后复制markdown链接了,现在可以直接丢进typora😊
 
-- `upload.py`为smms上传的脚本文件
+- `upload.py`为smms上传的脚本文件,其中包含了`config.py`文件,里面保存了`username`和`password`文件并没有推送上来
 
 - `backup.py`顾名思义,防止脚本出现问题把文章给改了,数据无价啊!
 
